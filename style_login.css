@@ -1,0 +1,66 @@
+.contenedor-principal {
+    display: flex; /* Para alinear los divs en fila */
+    justify-content: space-between; /* Espaciado entre los divs */
+    align-items: center; /* Para centrar verticalmente */
+}
+
+.container1 {
+    border: 1px solid #ccc; /* Opcional: para ver los límites */
+    padding: 20px;
+    flex: 1; /* Para que los divs ocupen un espacio proporcional */
+    margin: 10px; /* Separación entre ellos */
+}
+
+.container2 {
+    border: 1px solid #ccc; /* Opcional: para ver los límites */
+    padding: 20px;
+    flex: 1; /* Para que los divs ocupen un espacio proporcional */
+    margin: 10px;
+}
+
+.contenedor_venta {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1px; /* Espacio entre los elementos */
+}
+
+.contenedor_venta {
+    display: flex;
+    justify-content: center; /* Centrar los elementos */
+     /* Asegura que ambos divs tengan la misma altura */
+    gap: 10px; /* Reduce el espacio entre los elementos */
+}
+
+.form_venta {
+    flex-grow: 2;
+    max-width: 600px;
+    background: white; 
+    padding: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.form_venta2 {
+    flex-grow: 1;
+    max-width: 300px;
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.boton {
+    display: inline-block;
+    font-size: 18px; /* Tamaño más grande */
+    padding: 12px 24px; /* Botón más grande */
+    background: #007bff; /* Color azul */
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background: #0056b3; /* Color más oscuro al pasar el mouse */
+}
+
